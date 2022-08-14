@@ -14,7 +14,6 @@ export default function UserCardDetail(props) {
         <IconMapPins />
         {props.address}
       </strong>
-      <br />
     </div>
   );
 }
