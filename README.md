@@ -18,3 +18,5 @@ npm run dev
 
 (ใส่ URL ที่นี่)
 https://codesandbox.io/s/gracious-rain-7hufzz
+
+ทำไมรันโค้ดในเว็ปได้แต่เอาไปใส่sandboxแล้วerrorครับ
