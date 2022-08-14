@@ -5,9 +5,9 @@ import {
   IconMapPins,
 } from "@tabler/icons";
 import { useDebugValue, useState } from "react";
-import UserCard from "../Component/UserCard";
+import UserCard from "../component/UserCard";
 import axios from "axios";
-import UserCardDetail from "../Component/UserCardDetail";
+import UserCardDetail from "../component/UserCardDetail";
 
 export default function Home() {
   const [genAmount, setGenAmount] = useState(1);
