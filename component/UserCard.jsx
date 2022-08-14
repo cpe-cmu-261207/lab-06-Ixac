@@ -16,6 +16,7 @@ export default function UserCard(props) {
   return (
     <div>
       <div className="border-bottom">
+        {/* {main section} */}
         <div className="d-flex align-items-center p-3" onClick={onClickHandler}>
           <img
             src={props.imgUrl}
@@ -26,6 +27,7 @@ export default function UserCard(props) {
           {raiwa === false ? <IconChevronDown /> : <IconChevronUp />}
         </div>
       </div>
+      {}
       {raiwa === false ? null : (
         <UserCardDetail email={props.email} address={props.address} />
       )}
